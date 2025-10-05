@@ -1,4 +1,5 @@
 "use client";
+import { useState } from "react";
 
 import {
   arrowDown2,
@@ -24,7 +25,7 @@ import {
 
 import { TransactionDetails } from "@/constants";
 import Image from "next/image";
-import React, { useState } from "react";
+
 import { Button } from "@/components/ui/Button";
 import SalesChart from "@/components/ui/SalesChart";
 
