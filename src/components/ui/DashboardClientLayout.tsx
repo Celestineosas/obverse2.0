@@ -18,7 +18,7 @@ export default function DashboardClientLayout({
   return (
     <>
       {!shouldHide && (
-        <main className="bg-[#141414] sm:px-10  px-3 h-screen w-full relative max-container">
+        <main className="bg-[#141414] w-[90%] m-auto  px-3 h-screen relative max-container">
           {" "}
           <div className="fixed bottom-0 left-0 right-0 flex justify-center">
             <div className="w-full max-w-[600px] text-white flex flex-col items-center gap-5 py-5 px-4">

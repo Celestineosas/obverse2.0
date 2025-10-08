@@ -6,7 +6,7 @@ import { IoSearch } from "react-icons/io5";
 
 const page = () => {
   return (
-    <section className="bg-[#141414] sm:px-8 px-5 py-10 flex flex-col h-full w-full relative max-container">
+    <section className="bg-[#141414] py-10 flex flex-col h-full w-full relative max-container">
       <div className="flex flex-col gap-5">
         <h2 className="text-[#FFF3EF] text-[18px] font-onest font-medium">
           Transactions

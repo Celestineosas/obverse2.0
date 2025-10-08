@@ -8,7 +8,7 @@ export default function DashboardLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <main className="bg-[#141414] sm:px-10  px-3 h-screen w-full relative max-container">
+  return <main className="bg-[#141414] w-[90%] h-screen m-auto relative max-container">
     {children}
     <div className="fixed bottom-0 left-0 right-0 flex justify-center">
   <div className="w-full max-w-[600px] text-white flex flex-col items-center gap-5 py-5 px-4">

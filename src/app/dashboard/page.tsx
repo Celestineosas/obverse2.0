@@ -43,7 +43,7 @@ const page = () => {
   const [selectedDuration, setSelectedDuration] = useState(durations[0]);
 
   return (
-    <section className="bg-[#141414] sm:px-8  px-5 flex flex-col h-full w-full relative max-container">
+    <section className="bg-[#141414] flex flex-col h-full w-full relative max-container">
       <nav className=" flex justify-between py-7 items-center w-full">
         <div className="flex justify-between items-center w-full">
           <div className="flex items-center justify-center sm:gap-4 gap-1">
@@ -51,7 +51,6 @@ const page = () => {
             <Image src={logoTextDark} alt="logoText" className="w-25 mb-1" />
           </div>
 
-          {/* Chain Select Dropdown */}
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
               <Button

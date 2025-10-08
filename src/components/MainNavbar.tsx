@@ -5,22 +5,23 @@ import Link from "next/link";
 import Image from "next/image";
 import { FiMenu, FiX } from "react-icons/fi";
 import { navLinks } from "@/constants";
-import { logo, logoText } from "@/assets/icons";
+import { logo, logoDark, logoText, logoTextDark } from "@/assets/icons";
 import { Button } from "./ui/Button";
 
 
-const Navbar = () => {
+
+const MainNavbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const closeMenu = () => setMenuOpen(false);
 
   return (
-    <header className="w-full bg-background sm:pt-10 pt-5">
-      <nav className="sm:px-10 lg:mx-20 sm:mx-15 mx-5 px-5 flex justify-between py-3  items-center rounded-[64px] bg-[#FFF9F7] border border-[#FFE9E3]">
+    <header className="w-full bg-transparent">
+      <nav className="sm:px-10 lg:mx-20 sm:mx-15 mx-5 px-5 flex justify-between py-3  items-center rounded-[64px] bg-[#22201D] border border-[#2d2b29]">
         
         <Link href="/" onClick={closeMenu}>
           <div className="flex sm:gap-4 gap-2">
-            <Image src={logo} alt="logo" />
-            <Image src={logoText} alt="logoText" />
+            <Image src={logoDark} alt="logo" />
+            <Image src={logoTextDark} alt="logoText" />
           </div>
         </Link>
 
@@ -30,7 +31,7 @@ const Navbar = () => {
             <li key={item.label} className="relative">
               <Link
                 href={`/${item.link}`}
-                className="font-onest text-sm text-[#131313]"
+                className="font-onest text-sm text-[#FFF3EF]"
               >
                 {item.label}
               </Link>
@@ -40,7 +41,7 @@ const Navbar = () => {
 
     
         <button
-          className="lg:hidden text-[30px] font-bold text-gray-600"
+          className="lg:hidden text-[30px] font-bold text-[#FFF9F8]"
           onClick={() => setMenuOpen(true)}
         >
           <FiMenu />
@@ -79,17 +80,17 @@ const Navbar = () => {
             className="flex lg:hidden bg-white border-gray-500 mt-10 ml-5"
             size="normal"
           >
-            Get started
+            Join Waitlist
           </Button>
         </div>
 
         
         <Button className="hidden lg:flex text-[12px] font-medium" variant="normal" size="normal">
-          Get started
+          Join Waitlist
         </Button>
       </nav>
     </header>
   );
 };
 
-export default Navbar;
+export default MainNavbar;

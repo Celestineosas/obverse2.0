@@ -28,7 +28,7 @@ const page = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   return (
-    <section className="bg-[#141414] sm:px-8 px-8 py-5 h-screen w-full relative max-container">
+    <section className="bg-[#141414] w-[90%] m-auto py-5 h-screen  relative max-container">
       <div className="flex flex-col gap-5">
         <div className="flex items-center sm:justify-between max-sm:gap-5">
           <Link href="/dashboard">

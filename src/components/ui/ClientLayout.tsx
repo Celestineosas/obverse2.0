@@ -9,7 +9,7 @@ export default function ClientLayout({
   children: React.ReactNode;
 }) {
   const pathname = usePathname();
-  const hideNavbar = ["/dashboard", "/create"];
+  const hideNavbar = ["/dashboard", "/create", "/"];
   const shouldHide = hideNavbar.some((path) => pathname.startsWith(path));
 
   return (

@@ -38,7 +38,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${onest.variable} ${figtree.variable} ${geistMono.variable} antialiased bg-background`}
+        className={`${geistSans.variable} ${onest.variable} ${figtree.variable} ${geistMono.variable} antialiased bg-[#141414]`}
       >
         <ClientLayout>{children}</ClientLayout>
       </body>
