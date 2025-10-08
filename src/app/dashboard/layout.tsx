@@ -27,10 +27,10 @@ export default function DashboardLayout({
           <div className="flex w-full items-center justify-between cursor-pointer bg-[#070707] px-3 py-2">
             <Link
               href="/dashboard"
-              className="flex gap-1 flex-col items-center group focus:outline-none"
+              className="flex flex-col items-center group focus:outline-none"
             >
               <div className="w-6 h-6 transition invert-[0.6] group-hover:invert-0 group-focus:invert-0 group-active:invert-0">
-                <Image src={HomeIcon} alt="Home Icon" width={24} height={24} />
+                <Image src={HomeIcon} alt="Home Icon" />
               </div>
               <h1 className="text-[#8c8c8c] font-onest font-light text-[12px] transition group-hover:text-primary group-focus:text-primary group-active:text-primary">
                 Home
@@ -39,10 +39,10 @@ export default function DashboardLayout({
 
             <Link
               href="/dashboard/transactions"
-              className="flex gap-1 flex-col items-center group focus:outline-none"
+              className="flex flex-col items-center group focus:outline-none"
             >
               <div className="w-6 h-6 transition invert-[0.6] group-hover:invert-0 group-focus:invert-0 group-active:invert-0">
-                <Image src={linkIcon} alt="Transaction Icon" width={24} height={24} />
+                <Image src={linkIcon} alt="Transaction Icon" />
               </div>
              <h1 className="text-[#8c8c8c] font-onest font-light text-[12px] transition group-hover:text-primary group-focus:text-primary group-active:text-primary">
                 Transactions
@@ -50,10 +50,10 @@ export default function DashboardLayout({
             </Link>
             <Link
               href="/dashboard/links"
-              className="flex gap-1 flex-col items-center group focus:outline-none"
+              className="flex flex-col items-center group focus:outline-none"
             >
               <div className="w-6 h-6 transition invert-[0.6] group-hover:invert-0 group-focus:invert-0 group-active:invert-0">
-                <Image src={transactionIcon} alt="Link Icon" width={24} height={24} />
+                <Image src={transactionIcon} alt="Link Icon" />
               </div>
               <h1 className="text-[#8c8c8c] font-onest font-light text-[12px] transition group-hover:text-primary group-focus:text-primary group-active:text-primary">
                 Links
