@@ -1,5 +1,6 @@
 import { catIcon, spotify } from "@/assets/icons";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 import { IoSearch } from "react-icons/io5";
 
@@ -34,17 +35,19 @@ const page = () => {
           />
         </div>
 
-                  {/* No Transactions Design */}
+        {/* No Transactions Design */}
 
-          <div className="flex flex-col mt-10 justify-center items-center gap-3">
-            <Image src={catIcon} alt="catIcon" className="cat Image" />
+        <div className="flex flex-col mt-10 justify-center items-center gap-3">
+          <Image src={catIcon} alt="catIcon" className="cat Image" />
+          <Link href="/create">
             <p className="font-onest font-light text-[12px] text-[#FFF3EF]">
               <span className="text-primary underline">
                 Create a payment link{" "}
               </span>{" "}
               to start receiving payments
             </p>
-          </div>
+          </Link>
+        </div>
       </div>
     </section>
   );

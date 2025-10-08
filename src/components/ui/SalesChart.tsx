@@ -10,13 +10,13 @@ import {
 } from "recharts";
 
 const data = [
-  { name: "Mon", value: 20 },
-  { name: "Tue", value: 80 },
-  { name: "Wed", value: 50 },
-  { name: "Thu", value: 40 },
-  { name: "Fri", value: 45 },
-  { name: "Sat", value: 95 },
-  { name: "Sun", value: 95 },
+  { name: "i", value: 20 },
+  { name: "ii", value: 80 },
+  { name: "iii", value: 50 },
+  { name: "iv", value: 40 },
+  { name: "v", value: 45 },
+  { name: "vi", value: 95 },
+  { name: "vii", value: 95 },
 ];
 
 export default function SalesChart() {

@@ -10,7 +10,8 @@ const Main = () => {
       style={{ backgroundImage: `url(${paymentDarkBg.src})` }}
     >
       <MainNavbar />
-      <div className="w-[90%] m-auto flex flex-col justify-center items-center gap-5">
+     <div className="w-[90%] flex flex-col items-center gap-5 mt-10">
+
         <div>
           <Button
             size="normal"
@@ -30,17 +31,17 @@ const Main = () => {
           </p>
         </div>
 
-        <form className="flex items-center relative w-full sm:mt-5 mt-0 max-w-md">
+        <form className="flex items-center relative w-full mt-5 max-w-md">
           <input
             type="text"
             placeholder="Enter your email address"
-            className="flex-1  px-6 py-5 bg-transparent border-[0.5px] border-[#393939] text-white rounded-[40px] focus:outline-none placeholder:font-onest placeholder:text-[14px] placeholder:text-white"
+            className="flex-1  p-5 bg-transparent border-[0.5px] border-[#393939] text-white rounded-[40px] focus:outline-none placeholder:font-onest placeholder:text-[14px] placeholder:text-white"
           />
           <Button
             type="submit"
             size="normal"
             variant="normal"
-            className="absolute right-3 font-medium font-figtree text-[14px]"
+            className="absolute right-3 font-medium font-figtree text-[14px] max-sm:px-5"
           >
             Get Notified
           </Button>

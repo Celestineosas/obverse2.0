@@ -11,9 +11,9 @@ import Twitter from "./Vector (2).svg"
 import walletIcon from "./Frame 427319284.svg"
 import walletIconDark from "./Frame 427319284 (1).svg"
 import avatarIcon from "./AvatarIcon.svg"
-import homeIcon from "./Vector.svg"
-import transactionIcon from "./Vector1.svg"
-import linkIcon from "./Vector2.svg"
+import HomeIcon from "./Vector.svg"
+import transactionIcon from "./tIcon.svg"
+import linkIcon from "./lIcon.svg"
 import catIcon from "./Cat sitting in the house.svg"
 import rightArrow from "./Icon.svg"
 import assetIcon from "./AssetIcon.svg"
@@ -46,7 +46,7 @@ export {
     walletIconDark,
      avatarIcon,
 
-     homeIcon,
+     HomeIcon,
      transactionIcon,
      linkIcon,
 

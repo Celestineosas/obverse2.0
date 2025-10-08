@@ -4,7 +4,7 @@ import { usePathname } from "next/navigation";
 import { Button } from "./Button";
 import Link from "next/link";
 import Image from "next/image";
-import { homeIcon, linkIcon, transactionIcon } from "@/assets/icons";
+import { HomeIcon, linkIcon, transactionIcon } from "@/assets/icons";
 
 export default function DashboardClientLayout({
   children,
@@ -38,7 +38,7 @@ export default function DashboardClientLayout({
                   className="flex flex-col gap-1 items-center"
                 >
                   <Image
-                    src={homeIcon}
+                    src={HomeIcon}
                     alt="Home Icon"
                     className="text-gray-400"
                   />

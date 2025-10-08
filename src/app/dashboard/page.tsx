@@ -170,7 +170,7 @@ const page = () => {
             <Image src={arrowRight2} alt="Arrow RIght" />
           </div>
         </div>
-        <div className="flex justify-between items-center">
+        <div className="flex justify-between items-center py-2">
           <h2 className="text-[#FFF3EF] font-onest text-[16px] font-medium">
             Recent Transactions
           </h2>

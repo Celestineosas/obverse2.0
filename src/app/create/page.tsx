@@ -43,7 +43,7 @@ const page = () => {
           <div></div>
         </div>
 
-        <form className="flex gap-10 sm:justify-center flex-col w-full">
+        <form className="flex gap-5 sm:justify-center flex-col w-full">
           <p className="text-[#FFF3EF] font-onest text-[12px] font-light">
             Fill out the fields below to generate your payment link.
           </p>
