@@ -24,6 +24,8 @@ import paymentLightBg from "./paymentLight.png"
 
 import csith from "./Cat sitting in the house.jpg"
 
+import Ellipse from "./Ellipse.png"
+
 export {
 rImg,
 lImg,
@@ -49,5 +51,6 @@ obverse,
 paymentLightBg,
 paymentDarkBg,
 
-csith
+csith,
+Ellipse
 }

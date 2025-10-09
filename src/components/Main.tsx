@@ -1,17 +1,21 @@
 import React from "react";
 import MainNavbar from "./MainNavbar";
-import { paymentDarkBg } from "@/assets/images";
+import { Ellipse, paymentDarkBg } from "@/assets/images";
 import { Button } from "./ui/Button";
+import Image from "next/image";
 
 const Main = () => {
   return (
     <section
-      className="w-full m-auto flex flex-col gap-10 items-center pt-5 h-screen bg-cover lg:bg-center bg-top-right"
-      style={{ backgroundImage: `url(${paymentDarkBg.src})` }}
+      className="w-full m-auto flex flex-col gap-10 items-center pt-5 h-screen relative bg-[#070707]"
+      // style={{ backgroundImage: `url(${paymentDarkBg.src})` }}
     >
+      <div className="absolute bottom-0 w-full lg:h-0 z-1 flex items-center justify-center">
+         <Image src={Ellipse} alt="Ellipse" className="w-full"/>
+      </div>
       <MainNavbar />
-     <div className="w-[90%] flex flex-col items-center gap-5 mt-10">
-
+     <div className="w-[90%] flex flex-col items-center gap-5 mt-10 z-2">
+        
         <div>
           <Button
             size="normal"
@@ -22,7 +26,7 @@ const Main = () => {
           </Button>
         </div>
         <div className="flex gap-2 flex-col items-center">
-          <h1 className="font-onest font-bold sm:text-[45px] text-[25px] max-w-[625px] bg-gradient-to-r from-[#FFFFFF] to-[#FF7849] bg-clip-text text-transparent text-center">
+          <h1 className="font-onest leading-tight font-bold sm:text-[45px] text-[28px] whitespace-nowrap max-w-[625px]  bg-gradient-to-r from-[#FFFFFF] to-[#FF7849] bg-clip-text text-transparent text-center">
             Accept Stablecoins in chat <br /> with built-in invoicing
           </h1>
           <p className="text-[#FFFFFF] font-onest sm:text-[16px] text-[14px] max-w-[342px] text-center">
